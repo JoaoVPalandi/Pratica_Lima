@@ -7,7 +7,7 @@ body {
     background-image: url(../images/windows11-alt1-wallpaper.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;    
     font-family: "Segoe UI", sans-serif;
     height: 100vh;
     display: flex;
@@ -48,13 +48,26 @@ p {
     font-family: "Segoe UI", sans-serif;
     font-size: bold 1.2rem;
     cursor: pointer;
+    display: flex;
+    
 }
 
 .icon img {
-    height: 50px;
+    height: 48px;
+    width: 48px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.container {
+    display: flex; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap: 20px; 
+    padding: 100px 0px 100px 30px; 
+    align-items: center;
 }
 
