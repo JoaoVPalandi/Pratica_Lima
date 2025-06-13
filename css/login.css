@@ -82,6 +82,11 @@ form{
     animation: 500ms fadeIn;
 }
 
+.Senha input::-ms-reveal {
+    filter: invert(100%);
+    width: 14px;
+    margin-right: 2rem;
+}
 
 
 
